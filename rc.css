@@ -21,8 +21,8 @@
 }
 
 *{
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 1;
   box-sizing: border-box;
 }
 
@@ -46,7 +46,7 @@ body{
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 40px;
+  gap: 38px;
   margin: 50px 0;
 }
 
@@ -111,7 +111,7 @@ body{
 .price{
   display: flex;
   justify-content: center;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 .price span{
@@ -127,7 +127,7 @@ body{
 .pricing p{
   font-family: var(--poppins-font);
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .pricing .type{
@@ -147,7 +147,7 @@ body{
   width: 100%;
   font-family: var(--poppins-font);
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   padding: 0 20px;
 }
 
@@ -266,7 +266,7 @@ body{
   content: '';
   position: absolute;
   width: 150%;
-  height: 30px;
+  height: 32px;
   transform: rotate(225deg) translateY(15px);
 }
 
@@ -288,7 +288,7 @@ body{
   }  
 
   .pricing-card{
-    margin: 20px 0;
+    margin: 22px 0;
   }
 }
 
